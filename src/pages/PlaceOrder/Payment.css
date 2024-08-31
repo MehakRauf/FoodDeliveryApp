@@ -1,0 +1,38 @@
+.payment-methods {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-details, .expiry-cvv {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: tomato;
+  }
+  
+  button:hover {
+    background-color: #c45f58;
+  }
+  
